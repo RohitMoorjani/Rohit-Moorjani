@@ -79,11 +79,9 @@ html{
     display: flex;
     min-height: 100vh;
     position: relative;
-    /* background: url("img/banner.png") no-repeat center; */
     background-color: #121212;
     background-size: cover;
     background-position: center;
-    /* min-height: 500px; */
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
     padding: 250px 0;
@@ -234,7 +232,7 @@ section{
 }
 .experience .exp-content .card{
     width: calc(33% - 20px);
-    height: 28rem;
+    height: 30rem;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -254,12 +252,24 @@ section{
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
 }
 
 .experience .exp-content .card p{
     margin: 5px 5px;
+}
+.experience .exp-content a{
+    /* background-color: crimson; */
+    /* border: 6px solid crimson; */
+    border-radius: 6px;
+    color: crimson;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    /* width: 100px; */
+    font-family: 'poppins', sans-serif;
+
 }
 .experience .exp-content .card {
     transition: all 0.5s ease;
@@ -268,6 +278,10 @@ section{
     transform: scale(1.05);
     background-color: crimson;
 
+}
+.experience .exp-content .card:hover a{
+    color: lightgray;
+    text-decoration: underline;
 }
 .experience .exp-content .card:hover i{
     color: #fff;
@@ -316,8 +330,10 @@ background-color: #fff;
 }
 .services .serv-content .card:hover {
     transform: scale(1.05);
-    background-color: crimson;
-
+    color: #fff;
+}
+.services .serv-content .card:hover a{
+    color: #fff;
 }
 .services .serv-content .card:hover i{
     color: #fff;
@@ -525,6 +541,10 @@ footer{
         width: calc(50% - 20px);
         margin-bottom: 10px;
     }
+    .experience .exp-content .card{
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 1148px){
     .home .max-width{
@@ -568,6 +588,11 @@ footer{
 }
 @media (max-width: 800px){
     .services .serv-content .card{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .experience .exp-content .card{
         width: 100%;
         margin: auto;
         margin-bottom: 40px;
