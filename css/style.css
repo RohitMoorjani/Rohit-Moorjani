@@ -475,7 +475,9 @@ footer{
 }
 
 .icons i{
-    margin: 0 10px;
+    font-size: 23px;
+    margin-right: 20px;
+    padding: 10px 10px 10px 0px;
     cursor: pointer;
     color: #fff
 }
@@ -538,7 +540,7 @@ footer{
     }
     .home .home-content a{
         font-size: 23px;
-        padding: 10px 30px;
+        padding: 10px 10px 10px 0px;
     }
     .about .about-content .column{
         width: 100%;
@@ -643,7 +645,7 @@ footer{
     }
     .home .home-content a{
         font-size: 20px;
-        padding: 8px 25px;
+        padding: 8px 8px 8px 0px;
     }
     .services .serv-content .card{
         width: 100%;
@@ -684,7 +686,7 @@ footer{
     }
     .home .home-content a{
         font-size: 20px;
-        padding: 6px 23px;
+        padding: 6px 6px 6px 0px;
     }
 }
 
