@@ -104,7 +104,7 @@ html{
 .home .home-content .text-3 span{
     color: crimson;
 }
-.home .home-content a{
+.home .home-content #contactA{
     display: inline-block;
     font-size: 25px;
     background-color: crimson;
@@ -113,7 +113,6 @@ html{
     border: 2px solid crimson;
     border-radius: 6px;
     margin-top: 20px;
-    
 }
 .home .home-content a:hover{
     color: crimson;
@@ -465,6 +464,24 @@ footer{
     color: #fff;
     height: 5vh;
     align-items: center;
+    position: relative;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 0 0;
+    position: absolute;
+}
+
+.icons i{
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff
+}
+
+.icons i:hover{
+    color: crimson;
 }
 
 /* Responsive features */
