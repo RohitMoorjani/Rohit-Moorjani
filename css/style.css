@@ -26,7 +26,7 @@ html{
 }
 .navbar.sticky{
     padding: 30px 0;
-    background: crimson;
+    background: #121212;
 }
 .max-width{
     max-width: 1300px;
@@ -38,7 +38,7 @@ html{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .navbar .max-width{
     display: flex;
@@ -57,8 +57,12 @@ html{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
-
+    
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .navbar .logo a{
     color: #fff;
@@ -66,7 +70,12 @@ html{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .menu-btn{
     color: #fff;
@@ -96,13 +105,21 @@ html{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: repeating-linear-gradient(45deg, #3c81f6, #9d55ff 20%, #833ab4 40%, #c13584 60%, #e1306c 80%, #fd1d1d);    
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
 }
 .home .home-content #contactA{
     display: inline-block;
@@ -483,7 +500,12 @@ footer{
 }
 
 .icons i:hover{
-    color: crimson;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 /* Responsive features */
@@ -500,7 +522,11 @@ footer{
 @media (max-width: 1208px){
     
     .menu-btn{
-        color: #fff;
+        background: #ad5389;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 23px;
         cursor: pointer;
         display: block;
@@ -519,6 +545,7 @@ footer{
         top: 0;
         text-align: center;
         padding-top: 50px;
+        opacity: 0.9;
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
