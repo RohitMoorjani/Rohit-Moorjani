@@ -722,7 +722,7 @@ footer{
     }
 }
 @media (max-width: 390px){
-    .img-content{
+    .img-content img{
         width: 220px;
     }
 }
