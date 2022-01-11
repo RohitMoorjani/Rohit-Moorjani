@@ -656,6 +656,13 @@ footer{
     .max-width{
         padding: 0 50px;
     }
+    .skills .skills-content .column {
+        width: 100%;
+    }
+    .skills .skills-content .column.right{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
 }
 @media (max-width: 890px){
     /* .img-content img{
@@ -761,6 +768,34 @@ footer{
         /* left: 50%; */
         /* top: 0; */
     }
+    .experience .exp-content .card{
+        background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .experience .exp-content .card a{
+        background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: underline;
+    }
+    .experience .exp-content .card i{
+        background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .services .serv-content .card{
+        background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .services .serv-content .card i{
+        background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
 }
 @media (max-width: 390px){
     .img-content img{
