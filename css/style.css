@@ -379,6 +379,12 @@ background-color: #fff;
     font-size: 25px;
     font-weight: 500;
 }
+.services .serv-content .card .box span{
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: repeating-linear-gradient(45deg, #3c81f6, #9d55ff 20%, #833ab4 40%, #c13584 60%, #e1306c 80%, #fd1d1d);    
+    /* font-weight: 600; */
+}
 .services .serv-content .card {
     transition: all 0.5s ease;
 }
