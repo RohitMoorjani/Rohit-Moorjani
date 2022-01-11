@@ -210,6 +210,13 @@ section{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.about .about-content .right span{
+    font-weight: 600;
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .about .about-content .right p{
     text-align: justify;
 }
@@ -396,6 +403,13 @@ background-color: #fff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.skills .skills-content .left span{
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 .skills .skills-content .left p{
     text-align: justify;
