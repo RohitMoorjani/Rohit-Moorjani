@@ -24,7 +24,7 @@ $(document).ready(function(){
     });
 
     var typed=new Typed(".typing",{
-        strings: ["Developer", "Product Manager", "YouTuber", "Freelancer"],
+        strings: ["Developer", "YouTuber", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
