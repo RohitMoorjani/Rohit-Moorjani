@@ -11,6 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_3RDBUm5LOdY3j4UfkW9Wh");
+})();
+</script>
 </head>
 <body>
     <!-- Navbar -->
@@ -58,11 +64,11 @@
                 </div>
                 <div class="column right">
                     <div class="text">Currently doing <span>Btech :D</span></div>
-                    <p>Hello , I'm a 3rd year freshman of Computer Science at <span>V.I.T., Vellore</span>. I find my world steered by senseless but a lot of questions to which I'm constantly finding answers. The one thing which can define my whole personality is a <span>thinker</span> . I like to think about alternate solutions to popular problems and start building those solutions.
+                    <p>Hello, I'm a 3rd year freshman of Computer Science at <span>V.I.T., Vellore</span>. I find my world steered by senseless but a lot of questions to which I'm constantly finding answers. The one thing which can define my whole personality is a <span>thinker</span>. I like to think about alternate solutions to popular problems and start building those solutions.
                     </p>
                     <br>
                     <p>
-                        I also love to create content and showcase the real me to the whole world. Therefore, I have a YouTube channel and an Instagram page under the name of <span>Rojusthityou</span> where I make funny short clips and  vlogs of different parts of the world as a hobby.
+                        I also love to create content and showcase the real me to the whole world. Therefore, I have a YouTube channel and an Instagram page under the name of <span>Rojusthityou</span> where I make funny short clips and vlogs of different parts of the world as a hobby.
                     </p>
                     <a href="rm_cv.docx" download="">Download CV</a>
                 </div>
@@ -227,23 +233,23 @@
             <div class="contact-content">
                 <!-- <div class="text">Message me</div> -->
                 <div class="column right">
-                    <form action="#">
+                    <form action="javascript:sendmail()" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" id="name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" id="email" required>
                             </div>
                         </div>
                         <div class="field subject">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject (Optional) " id="subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Your message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Your message.." id="message" required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Send Message</button>
+                            <button type="submit" onclick="sendMail()">Send Message</button>
                         </div>
                     </form>
                 </div>
@@ -254,5 +260,6 @@
         <span>Rohit Moorjani | 2021</span>
     </footer>
     <script src="script.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
