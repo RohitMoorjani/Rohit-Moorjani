@@ -58,7 +58,7 @@ html{
 }
 .navbar .menu li a:hover{
     
-    background: #ad5389;  /* fallback for old browsers */
+  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-clip: text;
@@ -70,10 +70,9 @@ html{
     font-weight: 600;
 }
 .navbar .logo a span{
-    background: #ad5389;  /* fallback for old browsers */
+    /* background: #ad5389; */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -114,13 +113,13 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    background: #0f2027; /* fallback for old browsers */
+    /* background: #0f2027;  */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-clip: text;
     -webkit-text-fill-color: transparent;
-  
 }
+
 .home .home-content #contactA{
     display: inline-block;
     font-size: 25px;
@@ -561,7 +560,7 @@ footer{
 }
 
 .icons i:hover{
-    background: #ad5389;  /* fallback for old browsers */
+    /* background: #ad5389; */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-clip: text;
