@@ -61,6 +61,7 @@ html{
   /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -73,6 +74,7 @@ html{
     /* background: #ad5389; */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -105,6 +107,8 @@ html{
     font-weight: 600;
     margin-left: -3px;
     background-image: repeating-linear-gradient(45deg, #3c81f6, #9d55ff 20%, #833ab4 40%, #c13584 60%, #e1306c 80%, #fd1d1d);    
+    color: transparent;
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -117,6 +121,7 @@ html{
     background: #0f2027; 
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -238,6 +243,7 @@ section{
 .about .about-content .right a:hover{
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -275,6 +281,7 @@ section{
     /* color: crimson; */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text; 
     -webkit-text-fill-color: transparent;
     font-size: 50px;
@@ -300,6 +307,7 @@ section{
     /* border: 6px solid crimson; */
     border-radius: 6px;
     /* color: crimson; */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: repeating-linear-gradient(45deg, #3c81f6, #9d55ff 20%, #833ab4 40%, #c13584 60%, #e1306c 80%, #fd1d1d);    
@@ -326,6 +334,7 @@ section{
 .experience .exp-content .card:hover a{
     background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: underline;
@@ -333,6 +342,7 @@ section{
 .experience .exp-content .card:hover i{
     background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -370,6 +380,7 @@ background-color: #fff;
 .services .serv-content .card i{
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text; 
     -webkit-text-fill-color: transparent;
     font-size: 50px;
@@ -380,6 +391,7 @@ background-color: #fff;
     font-weight: 500;
 }
 .services .serv-content .card .box span{
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: repeating-linear-gradient(45deg, #3c81f6, #9d55ff 20%, #833ab4 40%, #c13584 60%, #e1306c 80%, #fd1d1d);    
@@ -413,6 +425,7 @@ background-color: #fff;
 .skills .skills-content .left span{
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text; 
     -webkit-text-fill-color: transparent;
     font-weight: 600;
@@ -530,6 +543,7 @@ background-color: #fff;
     background-color: #fff;
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text; 
     -webkit-text-fill-color: transparent;
     /* color: crimson; */
@@ -564,6 +578,7 @@ footer{
     /* background: #ad5389; */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -791,6 +806,7 @@ footer{
     .services .serv-content .card .box span{
         background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -801,6 +817,7 @@ footer{
     .experience .exp-content .card a{
         background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         text-decoration: underline;
@@ -808,6 +825,7 @@ footer{
     .experience .exp-content .card i{
         background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -818,6 +836,7 @@ footer{
     .services .serv-content .card i{
         background: -webkit-linear-gradient(to right, #fdfcfd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #fffeff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
