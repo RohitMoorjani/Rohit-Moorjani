@@ -136,10 +136,7 @@ html{
     border-radius: 6px;
     margin-top: 20px;
 }
-.home .home-content a:hover{
-    color: crimson;
-    background: none;
-}
+
 .about, .services, .skills, .experience, .contact, footer{
     font-family: 'poppins',sans-serif;
 }
