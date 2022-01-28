@@ -466,6 +466,9 @@ background-color: #fff;
 .skills .skills-content .right .fpt::before{
     width: 80%;
 }
+.skills .skills-content .right .ue::before{
+    width: 90%;
+}
 .skills .skills-content .right .msq::before{
     width: 80%;
 }
