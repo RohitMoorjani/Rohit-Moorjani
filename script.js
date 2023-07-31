@@ -24,9 +24,9 @@ $(document).ready(function(){
     });
 
     var typed=new Typed(".typing",{
-        strings: ["Developer", "YouTuber", "Freelancer"],
+        strings: ["Product Manager :)","Geek :)" , "YouTuber :D"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 50,
         loop: true
     })
 });
