@@ -178,7 +178,7 @@ section{
 .about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content, .experience .exp-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -464,22 +464,28 @@ background-color: #fff;
     height: 5px;
 }
 .skills .skills-content .right .fpt::before{
-    width: 80%;
-}
-.skills .skills-content .right .ue::before{
     width: 90%;
 }
-.skills .skills-content .right .msq::before{
+.skills .skills-content .right .pd::before{
+    width: 85%;
+}
+.skills .skills-content .right .sp::before{
     width: 80%;
 }
-.skills .skills-content .right .html::before{
-    width: 90%;
+.skills .skills-content .right .pc::before{
+    width: 83%;
 }
-.skills .skills-content .right .css::before{
+.skills .skills-content .right .am::before{
+    width: 70%;
+}
+.skills .skills-content .right .da::before{
+    width: 70%;
+}
+.skills .skills-content .right .sm::before{
     width: 75%;
 }
-.skills .skills-content .right .js::before{
-    width: 50%;
+.skills .skills-content .right .cs::before{
+    width: 90%;
 }
 /* contact section */
 
